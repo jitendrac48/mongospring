@@ -65,4 +65,7 @@ public class SpringDataMongoDBMain {
 	public void goo(){
 	}
  
+ 	public void foo(){
+ 		System.out.println("This is new function added from main");
+ 	}
 }
