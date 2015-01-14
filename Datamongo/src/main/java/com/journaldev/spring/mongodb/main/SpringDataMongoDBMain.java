@@ -61,5 +61,7 @@ public class SpringDataMongoDBMain {
             e.printStackTrace();
         }
     }
- 
+ 	public void foo(){
+ 		System.out.println("This is new function added from main");
+ 	}
 }
