@@ -61,5 +61,8 @@ public class SpringDataMongoDBMain {
             e.printStackTrace();
         }
     }
+
+	public void goo(){
+	}
  
 }
