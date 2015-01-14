@@ -18,7 +18,7 @@ public class SpringDataMongoDBMain {
     public static final String MONGO_HOST = "localhost";
     public static final int MONGO_PORT = 27017;
  
-    public static void main(String[] args) throws RuntimeException {
+    public static void main(String[] args) throws Exception,RuntimeException{
         try {
             MongoClient mongo = new MongoClient(
                     MONGO_HOST, MONGO_PORT);
